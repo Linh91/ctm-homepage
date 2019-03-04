@@ -17,7 +17,7 @@ class HeaderMenu extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      menuCategory: [
+      menuCategories: [
         {name: '', icon: <HouseIcon />, id: 1}, 
         {name: 'Vehicles', icon: <VehiclesIcon />, id: 2}, 
         {name: 'Home & pet', icon: <HomePetIcon />, id: 3}, 
@@ -33,12 +33,12 @@ class HeaderMenu extends Component {
   render() {
     const menuOptions = (
       <div className="MenuOptionsContainer">
-        {this.state.menuCategory.map(categories => {
+        {this.state.menuCategories.map(category => {
           return (
             <HeaderMenuButton
-              key={categories.id}
-              icon={categories.icon}
-              name={categories.name} />)
+              key={category.id}
+              icon={category.icon}
+              name={category.name} />)
         })}
       </div>
     )
