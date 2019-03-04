@@ -1,12 +1,14 @@
 :root {
   --mob-font-size: 12px;
   --border-radius: 12px;
+  --button-text-color: white;
+  --menu-button-color: #012366;
 }
 
 .BoxContainer {
-  background-color: #012366;
+  background-color: var(--menu-button-color);
   border: none;
-  color: white;
+  color: var(--button-text-color);
   padding: 0 20px;
   margin: 10px 5px 0;
   cursor: pointer;

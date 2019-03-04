@@ -2,12 +2,13 @@
   --default-margin: 40px 40px;
   --product-desc-mob-width: 350px;
   --border-height: 75px;
+  --button-text-color: white;
 }
 
 .ProductInformationContainer {
   display: inline-flex;
   margin: 0 5px 0;
-  background-color: white;
+  background-color: var(--button-text-color);
 }
 
 @media (max-width: 44.99em) {

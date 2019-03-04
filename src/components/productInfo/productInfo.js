@@ -36,7 +36,7 @@ export const ProductInfo = ({
       </div>
       <div className="VerticalBorder"></div>
       <div className="CashbackContainer">
-        <h3 className="CashbackHeader">Carshback</h3>
+        <h3 className="CashbackHeader">Cashback</h3>
         <h1 className="CashbackValue">£{productCashbackValue.toFixed(2)}</h1>
       </div>
     </div>

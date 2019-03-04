@@ -1,13 +1,15 @@
 :root {
   --deafult-border: 1px solid #1E488C;
   --border-radius: 12px;
+  --menu-button-color: #012366;
+  --button-text-color: white;
 }
 
 .MenuTabContainer {
   background: transparent;
   border: none;
-  background-color: #012366;
-  color: white;
+  background-color: var(--menu-button-color);
+  color: var(--button-text-color);
   cursor: pointer;
   display: inline;
   border-radius: 0;
