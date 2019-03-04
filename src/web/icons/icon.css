@@ -1,0 +1,11 @@
+.Icon {
+  display: inline;
+  vertical-align: middle;
+}
+
+.DefaultIconClass {
+  position: relative;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;;
+}

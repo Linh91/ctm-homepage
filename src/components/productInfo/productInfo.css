@@ -1,0 +1,88 @@
+:root {
+  --default-margin: 40px 40px;
+  --product-desc-mob-width: 350px;
+  --border-height: 75px;
+}
+
+.ProductInformationContainer {
+  display: inline-flex;
+  margin: 0 5px 0;
+  background-color: white;
+}
+
+@media (max-width: 44.99em) {
+  .ProductInformationContainer {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 45em) {
+  .ProductInformationContainer {
+    margin: 0;
+  }
+}
+
+.ImageContainer {
+  margin-top: 20px;
+}
+
+@media (max-width: 44.99rem) {
+  .ImageContainer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 45em) {
+  .ImageContainer {
+    margin: 40px 0 40px 80px;
+  }
+}
+
+.ProductDescription {
+  margin: var(--default-margin);
+  width: var(--product-desc-mob-width);
+  text-align: center;
+}
+
+@media (max-width: 44.99rem) {
+  .ProductDescription {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.CashbackContainer {
+  margin: var(--default-margin);
+  text-align: center;
+}
+
+.CashbackHeader {
+  margin: 0;
+}
+
+.CashbackValue {
+  display: inline;
+}
+
+@media (max-width: 44.99rem) {
+  .CashbackValue {
+    margin: 40px 40px 20px;
+  }
+}
+
+.VerticalBorder {
+  border-left: 1px solid grey;
+  height: var(--border-height);
+  margin-top: 40px;
+}
+
+@media (max-width: 44.99rem) {
+  .VerticalBorder {
+    border-left: none;
+    height: 0;
+  }
+}
+
+.ProductDescriptionContainer {
+  padding: 0 10px;
+}

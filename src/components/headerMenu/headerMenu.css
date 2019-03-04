@@ -1,0 +1,24 @@
+:root {
+  --default-desktop-width: 905px;
+}
+
+.MenuOptionsContainer {
+  margin-bottom: 20px;
+}
+
+.HeaderContainer {
+  width: 100%;
+}
+
+@media (min-width: 45em) {
+  .HeaderContainer {
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 1020px) {
+  .HeaderContainer {
+    margin: auto;
+    width: var(--default-desktop-width);
+  }
+}
